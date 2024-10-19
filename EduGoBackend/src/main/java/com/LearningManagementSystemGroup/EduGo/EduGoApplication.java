@@ -11,7 +11,7 @@ public class EduGoApplication {
 		System.out.println("EduGo start");
 		Dotenv dotenv = Dotenv.load();
 		System.out.println(dotenv);
-		System.out.println("rami");
+		System.out.println("rP");
 		System.setProperty("MONGO_URI", dotenv.get("MONGO_URI"));
 		SpringApplication.run(EduGoApplication.class, args);
 		System.out.println("EduGo Stop");
